@@ -6,7 +6,7 @@
 .App-form {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: calc(50% - 100px);
   width: 200px;
   padding: 5px;
   box-sizing: border-box;
@@ -27,4 +27,5 @@
   padding: 10px;
   text-align: center;
   box-sizing: border-box;
+  filter: invert(0.5);
 }
